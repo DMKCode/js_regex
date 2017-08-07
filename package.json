@@ -1,0 +1,13 @@
+{
+  "name": "js_regex",
+  "version": "1.0.0",
+  "author": "dmkcode",
+  "scripts": {
+    "go": "open http://localhost:3000; npm run server",
+    "start": "npm run server",
+    "server": "live-server . --host=localhost --port=3000 --middleware=../../../disable-browser-cache"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}

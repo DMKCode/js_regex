@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tester</title>
+    <style>
+        pre {
+            line-height: 2;
+        }
+        span {
+            background-color: #eee;
+            padding: 1px;
+            outline: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <pre></pre>
+    <!-- Load Babel -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" data-plugins="transform-class-properties" src="./app.js"></script>
+</body>
+</html>
