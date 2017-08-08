@@ -7,7 +7,7 @@ const output = (str, regex, target) => {
 var str = `Is this This?`;
 
 //var regex = new RegExp("is", "g");
-var regex = /is/g;
+var regex = /is/gi;
 
 output(str, regex, document.querySelector('pre'));
 
